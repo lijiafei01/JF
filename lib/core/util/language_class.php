@@ -4,11 +4,6 @@
  * @author JF
  * @date 2015-08-10
  */
-
-/**
- * @class JLanguage
- * @brief JLanguage 语言包类文件
- */
 class JLanguage
 {
 	private $is_loaded = array();
