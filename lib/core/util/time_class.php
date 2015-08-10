@@ -4,12 +4,7 @@
  * @author JF
  * @date 2015-08-10
  */
-
-/**
- * @class JTime
- * @brief JTime 时间处理类
- * @note
- */
+ 
 class JTime
 {
 	/**

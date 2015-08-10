@@ -4,10 +4,7 @@
  * @author JF
  * @date 2015-08-10
  */
-/**
- * @brief 系统统验证类文件
- * @class JValidate
- */
+
 class JValidate
 {		
     /**

@@ -5,10 +5,6 @@
  * @date 2015-08-10
  */
 
-/**
- * @class JFile
- * @brief JFile 文件处理类
- */
 class JFile
 {
 	private $resource = null; //文件资源句柄

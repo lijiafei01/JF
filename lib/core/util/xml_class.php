@@ -1,7 +1,6 @@
 <?php
 /**
- * @brief 封装XML操作类
- * 主要实现XML快速操作
+ * @brief 封装XML操作类实现XML快速操作
  * @author JF
  * @date 2010-08-10
  */

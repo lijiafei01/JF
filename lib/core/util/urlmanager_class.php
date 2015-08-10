@@ -5,11 +5,6 @@
  * @date 2015-08-10
  */
 
-/**
- * @class JUrl
- * @brief URL处理类
- * @note
- */
 class JUrl
 {
 	const UrlNative		= 1; //原生态的Url形式,指从index.php  例如：index.php?controller=blog&action=read&id=100

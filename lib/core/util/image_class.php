@@ -5,10 +5,6 @@
  * @date 2015-08-18
  */
 
-/**
- * @class JImage
- * @brief JImage 图片处理类
- */
 class JImage
 {
 	/**

@@ -1,13 +1,9 @@
 <?php
 /**
- * @brief 文件处理
+ * @brief JSON数据格式的处理
  * @author JF
  */
 
-/**
- * @class JSON
- * @brief JSON json数据格式的处理
- */
 class JSON
 {
 	//第三方JSON类库实例

@@ -5,10 +5,6 @@
  * @date 2015-08-10
  */
 
-/**
- * @class JReq
- * @brief 获取$_GET,$_POST的数据
- */
 class JReq
 {
 	/**

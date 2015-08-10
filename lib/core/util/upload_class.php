@@ -4,11 +4,7 @@
  * @author JF
  * @date 2015-08-10
  */
-
-/**
- * @class JUpload
- * @brief 文件上传类
- */
+ 
 class JUpload
 {
 	//允许上传附件类型

@@ -4,11 +4,6 @@
  * @author JF
  * @date 2015-08-10
  */
-
-/**
- * @class JSmtp
- * @brief 发送电子邮件
- */
 class JSmtp
 {
 	private $smtp_port;  //端口号
