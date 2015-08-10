@@ -1,7 +1,7 @@
 <?php
 /**
  * @brief URL处理类
- * @author JF
+ * @author **
  * @date 2015-08-10
  */
 
