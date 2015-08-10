@@ -1,8 +1,9 @@
 <?php
 /**
- * @brief 公共方法集合
- * @class Common
- * @note  公开方法集合适用于整个系统
+/**
+ * @brief 公共方法类
+ * @author JF
+ * @date 2015-08-10
  */
 class Common
 {
