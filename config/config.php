@@ -7,23 +7,23 @@
   'DB' =>
   array (
     'type' => 'mysql',
-    'tablePre' => 'JFshop_',
+    'tablePre' => 'JF_',
     'read' => 
     array (
       0 => 
       array (
-        'host' => 'localhost:3306',
+        'host' => '127.0.0.1:3306',
         'user' => 'root',
-        'passwd' => 'huigush!@#123',
-        'name' => 'huigush',
+        'passwd' => '',
+        'name' => 'JF',
       ),
     ),
     'write' => 
     array (
-      'host' => 'localhost:3306',
+      'host' => '127.0.0.1:3306',
       'user' => 'root',
-      'passwd' => 'huigush!@#123',
-      'name' => 'huigush',
+      'passwd' => '',
+      'name' => 'JF',
     ),
   ),
   'langPath' => 'language',
