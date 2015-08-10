@@ -1,6 +1,5 @@
 <?php
 /**
-/**
  * @brief 公共方法类
  * @author JF
  * @date 2015-08-10
@@ -80,52 +79,5 @@ class Common
 			}
 		}
 		return $planList;
-	}
-
-	/**
-	 * @brief 统计用户待评论数据
-	 * @param int $user_id 用户ID
-	 * @return int
-	 */
-	public static function countUserWaitComment($user_id)
-	{
-		$commentDB = new JModel('comment');
-		$data      = $commentDB->getObj('user_id = '.$user_id.' and status = 0','count(id) as num');
-		return $data['num'];
-	}
-
-	/**
-	 * @brief 统计用户待付款数据
-	 * @param int $user_id 用户ID
-	 * @return int
-	 */
-	public static function countUserWaitPay($user_id)
-	{
-		$orderDB = new JModel('order');
-		$data    = $orderDB->getObj('user_id = '.$user_id.' and status = 1','count(id) as num');
-		return $data['num'];
-	}
-
-	/**
-	 * @brief 统计用户待确认数据
-	 * @param int $user_id 用户ID
-	 * @return int
-	 */
-	public static function countUserWaitCommit($user_id)
-	{
-		$orderDB = new JModel('order');
-		$data    = $orderDB->getObj('user_id = '.$user_id.' and status = 2 and distribution_status = 1','count(id) as num');
-		return $data['num'];
-	}
-
-	/**
-	 * @brief 获取评价分数
-	 * @param $grade float 分数
-	 * @param $comments int 评论次数
-	 * @return float
-	 */
-	public static function gradeWidth($grade,$comments = 1)
-	{
-		return $comments == 0 ? 0 : 14*($grade/$comments);
 	}
 }
