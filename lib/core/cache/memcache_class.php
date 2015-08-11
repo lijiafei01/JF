@@ -20,7 +20,7 @@ class JMemCache implements JCacheInte
 		}
 
 		$this->cache = new Memcache;
-		$server = isset(JF::$app->config['cache']['server']) ? JF::$app->config['cache']['server'] : $this->defaultHost;
+		$server = isset(JF::$app->config['cache']['memcache']['server']) ? JF::$app->config['cache']['memcache']['server'] : $this->defaultHost;
 		if(is_array($server))
 		{
 			foreach($server as $key => $val)
