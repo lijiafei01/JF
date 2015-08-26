@@ -142,7 +142,7 @@ class PhotoUpload
 	/**
 	 * @brief 图片信息入库
 	 * @param array $insertData 要插入数据
-	 		  object $photoObj  图库对象
+	 * object $photoObj  图库对象
 	 */
 	private function insert($insertData,$photoObj)
 	{
