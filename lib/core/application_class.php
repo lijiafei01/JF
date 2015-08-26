@@ -78,7 +78,7 @@ abstract class JApplication
 		}
 
 		date_default_timezone_set(isset($config['timezone']) ? $config['timezone'] : 'Asia/Shanghai');
-		JF::setClasses(isset($config['models']) ? $config['models'] : 'models.*');
+		JF::setClasses(isset($config['classes']) ? $config['classes'] : 'classes.*');
 		$this->charset  = isset($config['charset']) ? $config['charset'] : $this->charset;
 		$this->language = isset($config['lang']) ? $config['lang'] : $this->language;
 		$this->setDebugMode((isset($config['debug']) && $config['debug'] === true) ? true : false);
